@@ -10,9 +10,9 @@ Project developed for Android. All requirements of the project have been complet
 <li> ColorWheel: Create and reuse your own colors, </li>
 <li> Size Slider: Determine the size of tools, </li>
 <li> Painting Cannon: Fire colored projectiles onto the canvas and create paint explosions, </li>
-<li> Added responsive sound effects, </li>
+<li> Added sound effects for better user experience, </li>
 <li> Calming background music .</li>
 </ul>
 
-To improve the project, I worked to add extra features and further enhance the user experience.
+For a better user experience, I focused on adding extra features. <br/>
 Thank you for reviewing the project.
