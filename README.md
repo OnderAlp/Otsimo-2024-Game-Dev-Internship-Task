@@ -7,11 +7,11 @@ I uploaded the APK file of the project into the Releases.
 
 Project developed for Android. All requirements of the project have been completed. Added extras like;
 <ul>
-<li> ColorWheel: Create and reuse your own colors, <li>
-<li> Size Slider: Determine the size of tools, <li>
-<li> Painting Cannon: Fire colored projectiles onto the canvas and create paint explosions, <li>
-<li> Added responsive sound effects, <li>
-<li> Calming background music .<li>
+<li> ColorWheel: Create and reuse your own colors, </li>
+<li> Size Slider: Determine the size of tools, </li>
+<li> Painting Cannon: Fire colored projectiles onto the canvas and create paint explosions, </li>
+<li> Added responsive sound effects, </li>
+<li> Calming background music .</li>
 </ul>
 
 To improve the project, I worked to add extra features and further enhance the user experience.
