@@ -27,8 +27,8 @@
       "DisplayName": "Writing 6097564273297756792.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 9740,
-      "PayloadDebugContentSnippet": "-a=\"C:\\Users\\OnderCnC\\Desktop\\",
+      "PayloadLength": 10706,
+      "PayloadDebugContentSnippet": "-a=\"D:\\GitHub Desktop\\Otsimo-2",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
@@ -460,6 +460,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1300b0aESkipCompile.dag.json",
-  "PayloadsFile": "C:/Users/OnderCnC/Desktop/Unity Projects/Otsimo Intern Task 2024/Library/Bee/1300b0aESkipCompile.dag.payloads",
+  "PayloadsFile": "D:/GitHub Desktop/Otsimo-2024-Game-Dev-Internship-Task/Otsimo Intern Task 2024/Library/Bee/1300b0aESkipCompile.dag.payloads",
   "RelativePathToRoot": "../.."
 }

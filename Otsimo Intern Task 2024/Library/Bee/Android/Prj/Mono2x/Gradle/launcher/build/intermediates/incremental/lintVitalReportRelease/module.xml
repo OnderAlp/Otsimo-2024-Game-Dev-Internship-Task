@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="C:\Users\OnderCnC\Desktop\Unity Projects\Otsimo Intern Task 2024\Library\Bee\Android\Prj\Mono2x\Gradle\launcher"
+    dir="D:\GitHub Desktop\Otsimo-2024-Game-Dev-Internship-Task\Otsimo Intern Task 2024\Library\Bee\Android\Prj\Mono2x\Gradle\launcher"
     name=":launcher"
     type="APP"
     maven="Gradle:launcher:"

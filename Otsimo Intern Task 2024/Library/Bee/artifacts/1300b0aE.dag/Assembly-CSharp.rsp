@@ -416,7 +416,6 @@
 "Assets/Scripts/PaintBall.cs"
 "Assets/Scripts/PickColor.cs"
 "Assets/Scripts/PoinClickGetColor.cs"
-"Assets/Scripts/SelectionBG.cs"
 "Assets/Scripts/UIManager.cs"
 -langversion:9.0
 

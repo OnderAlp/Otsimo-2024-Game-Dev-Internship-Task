@@ -231,9 +231,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 24754}
     - Class: 114
-      Script: {instanceID: 26854}
+      Script: {instanceID: 26756}
     - Class: 114
-      Script: {instanceID: 29198}
+      Script: {instanceID: 26856}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1256,12 +1256,6 @@ ScriptsOnlyBuild:
     className: RuleTile
   - hash:
       serializedVersion: 2
-      Hash: e41ff7894026c61be0c828fbce96e59a
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SelectionBG
-  - hash:
-      serializedVersion: 2
       Hash: dc722a55ee0556e74039f0adea92c0cb
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1496,6 +1490,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: d5b64cedb18766718c834dfc00e1bc8f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PickColor
+  - hash:
+      serializedVersion: 2
       Hash: 3ca7f2be93d5156a91693dfd4bd38e3f
     assemblyName: Unity.2D.IK.Runtime
     namespaceName: UnityEngine.U2D.IK
@@ -1518,15 +1518,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: d5b64cedb18766718c834dfc00e1bc8f
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PickColor
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Game.unity
-  playerPath: "C:/Users/OnderCnC/Desktop/Unity Projects/Otsimo Intern Task 2024/\xD6nder
-    Alp Civcir's Task.apk"
+  playerPath: "C:/Users/OnderCnC/Downloads/\xD6nder Alp Civcir's Task.apk"

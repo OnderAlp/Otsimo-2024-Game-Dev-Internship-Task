@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\OnderCnC\\Desktop\\Unity Projects\\Otsimo Intern Task 2024\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v31\\values-v31.xml",
+            "outputFile": "D:\\GitHub Desktop\\Otsimo-2024-Game-Dev-Internship-Task\\Otsimo Intern Task 2024\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v31\\values-v31.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\OnderCnC\\Desktop\\Unity Projects\\Otsimo Intern Task 2024\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v31\\values-v31.xml",
+                    "source": "D:\\GitHub Desktop\\Otsimo-2024-Game-Dev-Internship-Task\\Otsimo Intern Task 2024\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v31\\values-v31.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -18,7 +18,6 @@ public class PaintBall : MonoBehaviour
         GetComponent<SpriteRenderer>().color = paintBallColor;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Vector3.Distance(transform.position, mousePos) < 0.1f)

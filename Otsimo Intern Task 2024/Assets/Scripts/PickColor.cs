@@ -40,11 +40,10 @@ public class PickColor : MonoBehaviour
 
                 col = tex.GetPixel(px, py);
                 test.color = col;
-                //Cursor.SetCursor(cursorTexture, hotSpot, CursorMode.Auto);
             }
             else
             {
-                //Cursor.SetCursor(null, hotSpot, CursorMode.Auto);
+                Debug.Log("Outside of the Wheel.");
             }
         }
     }

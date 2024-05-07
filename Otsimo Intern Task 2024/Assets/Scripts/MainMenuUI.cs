@@ -19,7 +19,7 @@ public class MainMenuUI : MonoBehaviour
     {
         galleryPath = GetGalleryPath();
 
-        string[] files = System.IO.Directory.GetFiles(galleryPath, "*.png"); // .jpg uzantýlý dosyalarý al
+        string[] files = System.IO.Directory.GetFiles(galleryPath, "*.png");
         if (files.Length > 0)
         {
             _startButtonText.text = "Continue";
@@ -44,15 +44,14 @@ public class MainMenuUI : MonoBehaviour
     {
         string path = "";
 
-        // Platforma göre iþlem yap
 #if UNITY_ANDROID && !UNITY_EDITOR
-            // Android'de galeri yolu
+
             path = "/storage/emulated/0/DCIM/Myapp Pictures"; // Örnek bir yol, gerçek yolu cihazda bulmanýz gerekecek
 #elif UNITY_IOS && !UNITY_EDITOR
-            // iOS'ta galeri yolu
+
             path = Application.persistentDataPath + "/../../Gallery";
 #else
-        // Diðer platformlar için varsayýlan
+
         path = Application.persistentDataPath;
 #endif
 

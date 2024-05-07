@@ -179,7 +179,6 @@ public class DrawAgent : MonoBehaviour
             {
                 if (hit.collider != null)
                 {
-                    Debug.Log("BBBBB");
 
                     Vector2 mousePos = m_camera.ScreenToWorldPoint(Input.mousePosition);
                     if (Vector2.Distance(mousePos, lastPos) > minDistance)
@@ -192,7 +191,6 @@ public class DrawAgent : MonoBehaviour
             }
             else
             {
-                Debug.Log("ÝMDAT");
                 if(currentLineRenderer != null)
                 {
                     outOfBoundsCheck = true;
@@ -300,6 +298,12 @@ public class DrawAgent : MonoBehaviour
 
     private IEnumerator CoroutineScreenshot()
     {
+
+#if UNITY_IOS && !UNITY_EDITOR                           
+        StartCoroutine(AppQuitCoroutine());
+        return;
+#endif
+
         UIManager.Instance.DeactivateExitPanel();
         yield return new WaitForEndOfFrame();
 
@@ -338,7 +342,12 @@ public class DrawAgent : MonoBehaviour
 
     public void LoadScreenshot()
     {
-        string[] files = Directory.GetFiles(galleryPath, "*.png"); // .jpg uzantýlý dosyalarý al
+
+#if UNITY_IOS && !UNITY_EDITOR
+        return;
+#endif
+
+        string[] files = Directory.GetFiles(galleryPath, "*.png");
         if (files.Length > 0)
         {
             Texture2D photoTexture = GetImageFromGallery(files[files.Length - 1]);
@@ -353,7 +362,7 @@ public class DrawAgent : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Galeride fotoðraf bulunamadý.");
+            Debug.LogError("Screenshot's can't be found in Gallery.");
         }
     }
 
@@ -363,11 +372,11 @@ public class DrawAgent : MonoBehaviour
         string path = "";
 
 #if UNITY_ANDROID && !UNITY_EDITOR
-            // Android'de galeri yolu
-            path = "/storage/emulated/0/DCIM/Myapp Pictures"; // Örnek bir yol, gerçek yolu cihazda bulmanýz gerekecek
+
+            path = "/storage/emulated/0/DCIM/Myapp Pictures";
 #elif UNITY_IOS && !UNITY_EDITOR
-            // iOS'ta galeri yolu
-            path = Application.persistentDataPath + "/../../Gallery";
+
+            return path;
 #else
         path = Application.persistentDataPath;
 #endif
@@ -387,7 +396,7 @@ public class DrawAgent : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Dosya bulunamadý: " + imagePath);
+            Debug.LogError("File can't be found: " + imagePath);
         }
 
         return tex;
